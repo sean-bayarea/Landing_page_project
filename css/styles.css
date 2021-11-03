@@ -44,12 +44,20 @@ background: linear-gradient(90deg, rgba(41,73,67,1) 0%, rgba(44,120,108,1) 33%, 
 }
 
 .therapists img {
-  width: 200px;
+  max-width: 100%;
   border: 5rem;
   border-radius: 100%;
 }
 .review img{
   width: 500px;
+}
+
+.companies img{
+  width: 150px;
+}
+
+.review img{
+  max-width: 100% ;
 }
 
 .page-header ul {
@@ -106,7 +114,7 @@ a {
 }
 
 .services img{
-  width: 400px;
+  max-width: 100%;
 }
 
 
